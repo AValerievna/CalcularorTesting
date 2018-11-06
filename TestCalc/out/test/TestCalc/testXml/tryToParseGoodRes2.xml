@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleCalculator>
+    <expressions>
+        <expression>
+            <operation OperationType="MUL">
+                <operation OperationType="SUB">
+                    <arg>8</arg>
+                    <arg>4</arg>
+                </operation>
+                <arg>2</arg>
+            </operation>
+        </expression>
+
+        <expression>
+            <operation OperationType="MUL">
+                <operation OperationType="DIV">
+                    <arg>18</arg>
+                    <arg>9</arg>
+                </operation>
+                <operation OperationType="DIV">
+                    <arg>10</arg>
+                    <arg>4</arg>
+                </operation>
+            </operation>
+        </expression>
+        <expression>
+            <operation OperationType="SUM">
+                <arg>1</arg>
+                <operation OperationType="SUM">
+                    <arg>3</arg>
+                    <arg>7</arg>
+                </operation>
+            </operation>
+        </expression>
+    </expressions>
+</simpleCalculator>
+
